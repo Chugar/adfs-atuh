@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spring Security SAML</title>
+</head>
+<body>
+    <h3><Strong>Bienvenue !</strong></h3>
+    <p>Vous êtes authentifié avec le login<span class="badge badge-dark" th:text="${username}">null</span>.</p>
+    <small>
+        <a th:href="@{/logout}">Logout</a>
+    </small>
+</body>
+</html>
